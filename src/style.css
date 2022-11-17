@@ -12,3 +12,7 @@ body {
     width: 85%;
     margin: 0 auto;
 }
+
+p {
+    color: hsl(229, 8%, 60%);
+}

@@ -1,0 +1,14 @@
+#features .text {
+    width: 35%;
+    text-align: center;
+    margin: 150px auto 80px;
+}
+
+#features .text h1 {
+    font-size: 3.0rem;
+    margin-bottom: 30px;
+}
+
+#features .text p {
+    font-size: 1.3rem;
+}

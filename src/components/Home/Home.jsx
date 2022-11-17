@@ -1,17 +1,12 @@
+import Section01 from '../Section01/Section01';
+import Section02 from '../Section02/Section02';
 import './style.css';
 
 const Home = () => {
-    return(
+    return (
         <div id="home">
-            <div className="container">
-                <div id="title">
-                    <h1>A Simple Bookmark Manager</h1>
-                    <p>
-                        A clean and simple interface to organize your favourite websites.
-                        Open a new browser tab and see your sites load instantly. Try it for free.
-                    </p>
-                </div>
-            </div>
+            <Section01 />
+            <Section02 />
         </div>
     )
 }

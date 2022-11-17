@@ -12,3 +12,25 @@
 #features .text p {
     font-size: 1.3rem;
 }
+
+#features .img {
+    margin-top: 80px;
+    width: 50%;
+    text-align: right;
+}
+
+#features .img img {
+    width: 100%;
+}
+
+#features .img .formBackImg {
+    width: 45%;
+    background: hsl(231, 69%, 60%);
+    height: 390px;
+    position: absolute;
+    top: 1510px;
+    left: 0;
+    z-index: -1;
+
+    border-radius: 0px 200px 200px 0px;
+}

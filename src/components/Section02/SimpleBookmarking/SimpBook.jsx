@@ -1,6 +1,9 @@
 const SimpBook = () => {
-    return(
-        <h1>Simple Book</h1>
+    return (
+        <div className="img">
+            <img src="./img/illustration-features-tab-1.svg" alt="Illustration Hero" />
+            <div className="formBackImg"></div>
+        </div>
     )
 }
 

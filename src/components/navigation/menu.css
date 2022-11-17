@@ -1,0 +1,48 @@
+.navigation {
+    margin-top: 30px;
+}
+
+.navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#logo {
+    width: 200px;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+li a:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#btnLogin {
+    background: hsl(0, 94%, 66%);
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+#btnLogin:hover {
+    background: #fff;
+    border: 1px solid hsl(0, 94%, 66%);
+    padding: 10px 28.75px;
+    color: hsl(0, 94%, 66%);
+}

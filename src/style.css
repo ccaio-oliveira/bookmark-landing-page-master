@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}

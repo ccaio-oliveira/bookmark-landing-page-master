@@ -4,7 +4,6 @@ import SimpBook from './SimpleBookmarking/SimpBook';
 import './style.css';
 
 const Section02 = () => {
-    const [linkContent, setLinkContent] = useState('simpleBookmarking');
     const [content, setContent] = useState(<SimpBook />);
     return (
         <section id="features">

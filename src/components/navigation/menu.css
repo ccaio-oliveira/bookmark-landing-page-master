@@ -10,11 +10,20 @@
 
 .navigation nav ul {
     display: flex;
+    align-items: center;
     list-style: none;
 }
 
 #logo {
     width: 200px;
+}
+
+.menu {
+    display: none;
+}
+
+#menuToggle .up {
+    display: none;
 }
 
 ul li {
@@ -37,6 +46,7 @@ li a:hover {
     background: hsl(0, 94%, 66%);
     padding: 10px 30px;
     border-radius: 7px;
+    border: none;
     color: #fff;
 }
 
@@ -45,4 +55,69 @@ li a:hover {
     border: 1px solid hsl(0, 94%, 66%);
     padding: 10px 28.75px;
     color: hsl(0, 94%, 66%);
+}
+
+@media (max-width: 885px){
+    .menu {
+        display: initial;
+    }
+
+    #menuToggle.close {
+        display: none;
+    }
+
+    #menuToggle.open {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: rgba(47, 53, 79, 0.9);
+    }
+
+    #menuToggle .up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin: 29px auto 0px;
+        padding-bottom: 29px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    #menuToggle #navigation {
+        width: 85%;
+        margin: 0px auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+
+    ul li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    li a {
+        color: #fff;
+    }
+
+    #btnLogin {
+        width: 100%;
+        background: none;
+        border: 2px solid #fff;
+    }
+
 }

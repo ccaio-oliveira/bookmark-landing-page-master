@@ -44,6 +44,10 @@ const Menu = () => {
                                 <button id="btnLogin">LOGIN</button>
                             </ul>
                         </nav>
+                        <div className="socialMedia">
+                            <img src="./img/icon-facebook.svg" alt="Icon FaceBook" />
+                            <img src="./img/icon-twitter.svg" alt="Icon Twitter" />
+                        </div>
                     </div>
                 </div>
             </div>

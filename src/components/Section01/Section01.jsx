@@ -11,7 +11,7 @@ const Section01 = () => {
                         Open a new browser tab and see your sites load instantly. Try it for free.
                     </p>
                     <div className="goToDown">
-                        <a href="#download" id='linkChrome'>Get it on Chrome</a>
+                        <a href="#download" id='linkChrome' className='btnGeral'>Get it on Chrome</a>
                         <a href="#download" id='linkFire'>Get it on Firefox</a>
                     </div>
                 </div>

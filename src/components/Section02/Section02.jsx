@@ -8,7 +8,7 @@ const Section02 = () => {
     return (
         <section id="features">
             <div className="container">
-                <div className="text">
+                <div className="featureText">
                     <h1>Features</h1>
                     <p>
                         Our aim is to make it quick and easy for yu to access your

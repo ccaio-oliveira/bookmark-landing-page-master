@@ -1,15 +1,15 @@
-#features .text {
+#features .featureText {
     width: 35%;
     text-align: center;
     margin: 150px auto 80px;
 }
 
-#features .text h1 {
+#features .featureText h1 {
     font-size: 3.0rem;
     margin-bottom: 30px;
 }
 
-#features .text p {
+#features .featureText p {
     font-size: 1.3rem;
 }
 
@@ -24,13 +24,33 @@
 }
 
 #features .img .formBackImg {
-    width: 45%;
+    width: 46%;
     background: hsl(231, 69%, 60%);
-    height: 390px;
+    height: 420px;
     position: absolute;
-    top: 1510px;
+    top: 1450px;
     left: 0;
     z-index: -1;
 
     border-radius: 0px 200px 200px 0px;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .text {
+    width: 40%;
+}
+
+.content .text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.subTitle {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}  

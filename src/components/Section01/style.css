@@ -19,20 +19,22 @@
     padding-right: 50px;
 }
 
-.title a {
+.title a, .btnGeral {
     padding: 20px 30px;
     border-radius: 7px;
     text-decoration: none;
     letter-spacing: 1.5px;
+    cursor: pointer;
 }
 
-#linkChrome {
+.btnGeral {
     background: hsl(231, 69%, 60%);
+    border: none;
     color: #fff;
     margin-right: 30px;
 }
 
-#linkChrome:hover {
+.btnGeral:hover {
     background: none;
     border: 3px solid hsl(231, 69%, 60%);
     color: hsl(231, 69%, 60%);

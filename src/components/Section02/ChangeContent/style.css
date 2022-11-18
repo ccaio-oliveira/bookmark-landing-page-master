@@ -14,6 +14,10 @@
     opacity: 0.5;
 }
 
+#btnChange button:hover {
+    color: hsl(0, 94%, 66%);
+}
+
 .simpleContent .simple, .speedContent .speed, .easyContent .easy {
     border-bottom: 5px solid hsl(0, 94%, 66%) !important;
     opacity: 0.8 !important;

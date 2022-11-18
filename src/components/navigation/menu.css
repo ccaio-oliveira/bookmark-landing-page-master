@@ -1,6 +1,10 @@
 .navigation {
+    width: 100%;
+    position: fixed;
+    top: 0;
     padding: 30px 0;
     background: #fff;
+    z-index: 3;
 }
 
 .navigation .container {
@@ -63,6 +67,8 @@ li a:hover {
 }
 
 @media (max-width: 885px){
+
+
     .menu {
         display: initial;
     }
